@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Cloner"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resolution: 360×806@160dpi\nFPS: 60fps"
+        android:textSize="14sp"
+        android:textColor="#BBBBBB"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/pickButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Pick Game APK"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="#1F7F1F"
+        android:layout_marginBottom="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Select an APK to patch\n\nSupported:\n• Minecraft\n• Roblox (may detect)\n\nPatches applied:\n✓ 360×806px resolution\n✓ 160dpi\n✓ 60fps cap"
+        android:textColor="#DDDDDD"
+        android:textSize="14sp"
+        android:gravity="top|start"
+        android:padding="16dp"
+        android:background="#1A1A1A" />
+
+</LinearLayout>
